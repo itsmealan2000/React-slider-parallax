@@ -1,0 +1,22 @@
+.main{
+    height: 80vh;
+    width: 100%;
+  }
+.slider-main{
+    padding: 2%;
+    height: 100vh;
+    width: 100%;
+  }
+  .swiper {
+    width: 60%;
+  }
+  .slidesmyswiper{
+        padding: 5%;
+  }
+  .swiper-img{
+    width: 100%;
+  }
+  .bi{
+  background-color: black;
+  color: white;
+  }
