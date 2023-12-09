@@ -1,9 +1,10 @@
 import React,{useState, useEffect}from 'react'
 import Logo from '../assets/logo/logoavj.png'
 import './Navbar.css'
+import Slider from '../Pages/Slider'
+import Parallax from '../Pages/Parallax'
 function Navbar() {
     const [pageTitle, setPageTitle] = useState(() => localStorage.getItem('pageTitle') || '');
-
     const handleParallaxClick = () => {
       setPageTitle('Parallax');
     };
@@ -25,6 +26,9 @@ function Navbar() {
               <a href=""><button className='btn  btn-primary ms-2' onClick={handleParallaxClick}>View Parallax</button></a>
          </div>
   </nav>
+  <div className='container-fluid'>
+    {pageTitle === 'Parallax' ? <Parallax/> : <Slider/>}
+  </div>
   </>
   )
 }

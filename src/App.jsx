@@ -1,14 +1,11 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 
-function App() {
 
+function App() {
   return (
     <>
-      <Navbar/>
-      <div>
-        <h1>Helllo</h1>
-      </div>
+      <div className='container-fluid'><Navbar/></div>
     </>
   )
 }
