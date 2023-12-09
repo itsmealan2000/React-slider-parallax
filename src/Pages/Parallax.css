@@ -1,0 +1,27 @@
+main{
+  height: max-content;
+}
+.intro{
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+.intro-img{
+  mix-blend-mode: hard-light;
+}
+.intro__title{
+  text-align: center;
+  left: 10%;
+  right: 0;
+  text-align: center;
+  font-size: 10rem;
+  position: absolute;
+  mix-blend-mode: darken;
+}
+.contents{
+  height: 150vh;
+  background-color: pink;
+}
